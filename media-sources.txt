@@ -1,0 +1,11 @@
+hero.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_084241_9305bc9b-5037-4461-b9f5-7d4edc92fa24.png
+arrival.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_084808_4fe326dc-4bca-4e4c-9808-8aaf2baeb985.png
+kitchen.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_084812_da3da2d4-1ae9-43f8-b530-baf30f7eb490.png
+suite.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_084816_43bec2fe-a232-44e9-bfa0-af04f200b1ef.png
+bath.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085105_500f113a-8664-44db-b177-f82765701d9e.png
+dining.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085111_97640192-09bc-4d85-b61b-ee0361a67b26.png
+agent.png|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085113_304226d3-1578-47a3-b2b3-a3dcbd34c073.png
+clip1-approach.mp4|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085020_1b9d3219-8923-4738-a700-2dcf17a67af8.mp4
+clip2-arrival.mp4|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085023_ade3a3a2-14b7-4c1e-8da6-377da3a9c529.mp4
+clip3-flow.mp4|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085026_ab4887a1-d8d3-48de-93b8-32cc2b43ee7e.mp4
+clip4-terrace.mp4|https://d8j0ntlcm91z4.cloudfront.net/user_3CkNr43UEeiRdmkW7nxAdRH6asO/hf_20260706_085030_a8c05f87-5aec-4ac8-adf1-f194061d82d0.mp4

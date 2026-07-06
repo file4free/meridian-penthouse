@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>THE MERIDIAN — Penthouse 60 · Tel Aviv</title>
+<meta name="description" content="A once-in-a-generation penthouse, sixty floors above Tel Aviv. 4 bedrooms · 5.5 baths · 7,200 sq ft · private elevator. $12,500,000." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0c0f'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23cfae7b' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E" />
+<link rel="preload" href="fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="fonts/jost-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="site-head" id="siteHead">
+    <a class="wordmark" href="#top">THE&nbsp;MERIDIAN</a>
+    <nav class="head-nav">
+      <span class="head-loc">Tel&nbsp;Aviv&nbsp;·&nbsp;60th&nbsp;Floor</span>
+      <a class="head-cta" href="#showing">Private&nbsp;Showing</a>
+    </nav>
+  </header>
+
+  <!-- ═══════════════ TOUR PROGRESS RAIL ═══════════════ -->
+  <aside class="rail" id="rail" aria-hidden="true">
+    <div class="rail__line"><div class="rail__fill" id="railFill"></div></div>
+    <ol class="rail__stops" id="railStops">
+      <li data-chapter="0"><i></i><span>The Approach</span></li>
+      <li data-chapter="1"><i></i><span>The Arrival</span></li>
+      <li data-chapter="2"><i></i><span>The Flow</span></li>
+      <li data-chapter="3"><i></i><span>The Terrace</span></li>
+    </ol>
+  </aside>
+
+  <main id="top">
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="media/hero.jpg" alt="The Meridian tower at dusk over Tel Aviv" />
+      </div>
+      <div class="hero__veil"></div>
+      <div class="hero__copy">
+        <p class="eyebrow reveal">Tel Aviv · Israel</p>
+        <h1 class="hero__title reveal">Sixty floors<br /><em>above everything</em></h1>
+        <p class="hero__sub reveal">The Meridian · Penthouse 60 · A private world between sea and sky</p>
+      </div>
+      <div class="hero__cue">
+        <span>Begin the tour</span>
+        <div class="hero__cue-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CINEMATIC TOUR (SCROLL-SCRUBBED) ═══════════════ -->
+    <section class="tour" id="tour">
+      <div class="tour__stage">
+        <video id="tourVideo" class="tour__video"
+               muted playsinline preload="auto" poster="media/hero.jpg"
+               disablepictureinpicture>
+          <source src="media/tour.mp4" type='video/mp4; codecs="avc1.640028"' />
+          <source src="media/tour.webm" type='video/webm; codecs="vp9"' />
+        </video>
+        <div class="tour__grain"></div>
+        <div class="tour__vignette"></div>
+        <div class="tour__chapter" id="chapterCard">
+          <p class="tour__chapter-num" id="chapterNum">I</p>
+          <h2 class="tour__chapter-name" id="chapterName">The Approach</h2>
+          <p class="tour__chapter-line" id="chapterLine">Dusk over the Mediterranean. The city ignites.</p>
+        </div>
+        <div class="tour__loading" id="tourLoading"><span>Preparing the tour…</span></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ RESIDENCE FACTS ═══════════════ -->
+    <section class="facts">
+      <ul class="facts__row">
+        <li class="reveal"><strong>4</strong><span>Bedrooms</span></li>
+        <li class="reveal"><strong>5.5</strong><span>Baths</span></li>
+        <li class="reveal"><strong>7,200</strong><span>Square feet</span></li>
+        <li class="reveal"><strong>Private</strong><span>Elevator</span></li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════ NARRATIVE INTERLUDE ═══════════════ -->
+    <section class="manifesto">
+      <p class="manifesto__text reveal">Above the noise, above the haze, above every other roofline in the city —
+        a single residence occupying the entire sixtieth floor, where the Mediterranean
+        meets the sky in <em>every direction you look.</em></p>
+    </section>
+
+    <!-- ═══════════════ GALLERY ═══════════════ -->
+    <section class="gallery" id="gallery">
+      <header class="sect-head reveal">
+        <p class="eyebrow">The Residence</p>
+        <h2>A gallery of light</h2>
+      </header>
+      <div class="gallery__grid">
+        <figure class="g-item g-wide reveal"><img loading="lazy" src="media/arrival.jpg" alt="Private elevator opening to the marble entry gallery" /><figcaption>The private elevator arrival</figcaption></figure>
+        <figure class="g-item reveal"><img loading="lazy" src="media/kitchen.jpg" alt="Chef's kitchen with marble island" /><figcaption>The chef's kitchen</figcaption></figure>
+        <figure class="g-item reveal"><img loading="lazy" src="media/dining.jpg" alt="Formal dining beneath a champagne chandelier" /><figcaption>Dining for ten, views for miles</figcaption></figure>
+        <figure class="g-item g-wide reveal"><img loading="lazy" src="media/suite.jpg" alt="Primary suite opening to the terrace" /><figcaption>The primary suite, opening to the night</figcaption></figure>
+        <figure class="g-item reveal"><img loading="lazy" src="media/bath.jpg" alt="Primary bath with skyline views" /><figcaption>The primary bath</figcaption></figure>
+        <figure class="g-item reveal"><img loading="lazy" src="media/hero.jpg" alt="The Meridian tower at dusk" /><figcaption>The Meridian, at dusk</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ═══════════════ AMENITIES ═══════════════ -->
+    <section class="amenities" id="amenities">
+      <header class="sect-head reveal">
+        <p class="eyebrow">Appointments</p>
+        <h2>Considered, without compromise</h2>
+      </header>
+      <ul class="amenities__list">
+        <li class="a-row reveal"><span class="a-num">01</span><span class="a-name">Wraparound terrace with infinity-edge pool</span><span class="a-note">1,900 sq ft outdoors</span></li>
+        <li class="a-row reveal"><span class="a-num">02</span><span class="a-name">Private elevator with biometric entry</span><span class="a-note">Direct to residence</span></li>
+        <li class="a-row reveal"><span class="a-num">03</span><span class="a-name">Bookmatched Italian Calacatta marble throughout</span><span class="a-note">Hand-selected in Carrara</span></li>
+        <li class="a-row reveal"><span class="a-num">04</span><span class="a-name">Chef's kitchen by Boffi, Gaggenau &amp; Sub-Zero</span><span class="a-note">Plus catering kitchen</span></li>
+        <li class="a-row reveal"><span class="a-num">05</span><span class="a-name">Floor-to-ceiling low-iron glass, 360° exposure</span><span class="a-note">Sea, city &amp; sunrise</span></li>
+        <li class="a-row reveal"><span class="a-num">06</span><span class="a-name">Primary suite with dual dressing galleries</span><span class="a-note">And skyline bath</span></li>
+        <li class="a-row reveal"><span class="a-num">07</span><span class="a-name">Home cinema, wine vault &amp; wellness suite</span><span class="a-note">Sauna · steam · gym</span></li>
+        <li class="a-row reveal"><span class="a-num">08</span><span class="a-name">Full-floor smart home by Crestron</span><span class="a-note">Light · climate · shade</span></li>
+        <li class="a-row reveal"><span class="a-num">09</span><span class="a-name">Five-star tower services</span><span class="a-note">Concierge · valet · spa</span></li>
+      </ul>
+    </section>
+
+    <!-- ═══════════════ PRICE ═══════════════ -->
+    <section class="price">
+      <p class="eyebrow reveal">Offered at</p>
+      <p class="price__figure reveal">$12,500,000</p>
+      <p class="price__note reveal">A once-in-a-generation offering · Furnishings negotiable · Immediate occupancy</p>
+    </section>
+
+    <!-- ═══════════════ REQUEST A SHOWING ═══════════════ -->
+    <section class="showing" id="showing">
+      <div class="showing__inner">
+        <div class="showing__intro">
+          <header class="sect-head reveal">
+            <p class="eyebrow">By appointment only</p>
+            <h2>Request a<br />private showing</h2>
+          </header>
+          <div class="agent reveal">
+            <img class="agent__photo" src="media/agent.jpg" alt="Portrait of Maya Rosen" />
+            <div class="agent__meta">
+              <p class="agent__name">Maya Rosen</p>
+              <p class="agent__title">Director, Meridian Private Office</p>
+              <p class="agent__contact">+972 3 555 0160<br />maya@meridian-telaviv.com</p>
+            </div>
+          </div>
+        </div>
+        <form class="showing__form reveal" id="showingForm" novalidate>
+          <div class="field"><label for="fName">Full name</label><input id="fName" name="name" type="text" autocomplete="name" required /></div>
+          <div class="field-pair">
+            <div class="field"><label for="fEmail">Email</label><input id="fEmail" name="email" type="email" autocomplete="email" required /></div>
+            <div class="field"><label for="fPhone">Phone</label><input id="fPhone" name="phone" type="tel" autocomplete="tel" /></div>
+          </div>
+          <div class="field"><label for="fDate">Preferred date</label><input id="fDate" name="date" type="date" /></div>
+          <div class="field"><label for="fMsg">Message</label><textarea id="fMsg" name="message" rows="3" placeholder="Anything we should prepare for your visit…"></textarea></div>
+          <button class="form-submit" type="submit"><span>Request showing</span></button>
+          <p class="form-done" id="formDone">Thank you. The Private Office will be in touch within the day.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-foot">
+      <p class="wordmark">THE&nbsp;MERIDIAN</p>
+      <p class="foot-line">Penthouse 60 · Rothschild &amp; Sea · Tel Aviv</p>
+      <p class="foot-fine">A fictional property, imagined for demonstration. All imagery AI-generated.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
