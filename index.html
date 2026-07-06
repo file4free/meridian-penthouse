@@ -55,11 +55,17 @@
     <section class="tour" id="tour">
       <div class="tour__stage">
         <video id="tourVideo" class="tour__video"
-               muted playsinline preload="auto" poster="media/hero.jpg"
+               muted playsinline webkit-playsinline preload="auto" poster="media/hero.jpg"
                disablepictureinpicture>
           <source src="media/tour.mp4" type='video/mp4; codecs="avc1.640028"' />
           <source src="media/tour.webm" type='video/webm; codecs="vp9"' />
         </video>
+        <div class="tour__stills" id="tourStills" aria-hidden="true">
+          <img src="media/hero.jpg" alt="" />
+          <img src="media/arrival.jpg" alt="" />
+          <img src="media/kitchen.jpg" alt="" />
+          <img src="media/suite.jpg" alt="" />
+        </div>
         <div class="tour__grain"></div>
         <div class="tour__vignette"></div>
         <div class="tour__chapter" id="chapterCard">

@@ -110,6 +110,9 @@ body.tour-active .rail { opacity: 1; transform: translateY(-50%); }
 .tour { position: relative; }
 .tour__stage { position: sticky; top: 0; height: 100svh; overflow: hidden; background: var(--ink); }
 .tour__video { width: 100%; height: 100%; object-fit: cover; }
+.tour__stills { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity .5s; }
+.tour__stills.is-on { opacity: 1; }
+.tour__stills img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
 .tour__vignette { position: absolute; inset: 0; pointer-events: none; background:
   radial-gradient(120% 90% at 50% 45%, transparent 55%, rgba(6,8,10,.5) 100%),
   linear-gradient(180deg, rgba(10,12,15,.35), transparent 18% 82%, rgba(10,12,15,.45)); }
